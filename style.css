@@ -1,0 +1,80 @@
+body {
+	margin: 0;
+	padding: 0;
+}
+
+/* From http://mrmrs.io/links/ */
+a {
+transition: color .4s;
+color: #265C83;
+}
+
+a:link,
+a:visited {
+	color: #265C83;
+}
+
+a:hover {
+	color: #7FDBFF;
+}
+
+a:active  {
+	transition: color .3s;
+	color: #007BE6;
+}
+
+.link {
+	text-decoration: none;
+}
+/* ^-- https://github.com/mrmrs/links */
+
+img {
+	height: auto;
+	max-height: 200px;
+	max-width: 200px;
+}
+
+abbr {
+	cursor: help;
+	text-decoration: underline;
+}
+
+ul {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+
+header,
+footer {
+	clear: both;
+	margin: 0 30px;
+}
+
+footer {
+	padding: 15px;
+}
+
+h1 a {
+	color: inherit;
+	text-decoration: none;
+}
+
+nav {
+    position: fixed;
+    top: 0;
+    right: 0;
+    text-align: center;
+    padding: 5px 10px;
+    color: white;
+    background-color: rgba(0,0,0,.7);
+    border-bottom-left-radius: 10px;
+}
+
+nav a {
+    color: white !important;
+}
+
+#container {
+    margin: 0 5px;
+}
